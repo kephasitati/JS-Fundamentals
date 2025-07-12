@@ -3,7 +3,7 @@ const times = parseInt(arg);
 
 if (isNaN(times)) {
   console.log('Missing number of occurrences');
-} else {
+} else if (times > 0) {
   let output = '';
 
   for (let i = 0; i < times; i++) {
