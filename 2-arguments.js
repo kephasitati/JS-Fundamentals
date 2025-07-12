@@ -6,5 +6,4 @@ if (args.length === 0) {
     console.log('Argument found'), args[0];
 } else {
         console.log('Arguments found');
-        console.log(args.join(', '));
     }
